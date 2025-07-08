@@ -1,0 +1,16 @@
+{
+  "name": "JXD-update-test",
+  "version": "25.6.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "25.6.0/home-assistant-voice-esp32s3.ota.bin",
+        "md5": "8dce15160f99c9193a355437fed254cf",
+        "summary": "## What's Changed\r\n* Streams TTS responses if supported by the TTS provider in Home Assistant\r\n* Present indication on LEDs if `voice_kit` component fails\r\n* Fix: Improves handling to avoid audio streams timing out\r\n\r\n\r\n**Full Changelog**: https://github.com/esphome/home-assistant-voice-pe/compare/25.5.2...25.6.0",
+      }
+    }
+  ]
+}
